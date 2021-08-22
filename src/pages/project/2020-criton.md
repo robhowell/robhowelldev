@@ -9,7 +9,7 @@ description: |
   UI engineering for Criton mobile apps & CMS
 tags:
   - react
-  - javascript
+  - typescript
   - node
   - aws
   

@@ -2,11 +2,11 @@
 layout: ../../layouts/project.astro
 title: Lead Front End Engineer
 client: Buildit @ Wipro Digital
-project: Scottish Widows Pensions Web App
+project: Scottish Widows Pensions Web App and Component Library
 published_at: 2021-01-01 00:00:00
 img: /assets/portfolio/2021-buildit.jpg
 description: |
-  UI engineering and technical strategy for the Scottish Widows Pensions Web App
+  UI engineering and technical strategy for the Scottish Widows Pensions Web App & Component Library
 tags:
   - react
   - javascript

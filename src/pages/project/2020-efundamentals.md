@@ -4,7 +4,7 @@ title: Senior Software Engineer
 client: e.fundamentals
 project: e.fundamentals Brand Protector
 published_at: 2020-02-01 00:00:00
-# img: /assets/portfolio/2020-criton.jpg
+img: /assets/portfolio/2020-efundamentals.jpg
 description: |
   UI engineering for e.fundamentals Brand Protection web app
 tags:
