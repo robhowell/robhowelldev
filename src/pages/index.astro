@@ -24,7 +24,7 @@ const featuredProject = projects[0];
         overflow: hidden;
 
         @media (min-width: $w-s) {
-          height: 45vw;
+          height: 30vw;
         }
       }
 
@@ -70,7 +70,7 @@ const featuredProject = projects[0];
       }
 
       .title {
-        font-weight: 900;
+        font-weight: 400;
         font-size: var(--f-u8);
         margin-bottom: 0.5rem;
         margin-top: 0;
@@ -130,12 +130,6 @@ const featuredProject = projects[0];
             background-color: var(--c-green);
           }
         }
-
-        &:hover {
-          .invert {
-            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-          }
-        }
       }
 
       .invert {
@@ -159,13 +153,6 @@ const featuredProject = projects[0];
         margin-bottom: 0;
       }
 
-      .subtitle {
-        display: block;
-        font-weight: 400;
-        font-size: var(--f-d6);
-        letter-spacing: -0.0625em;
-      }
-
       .bio {
         line-height: 2;
         margin-bottom: 2rem;
@@ -187,31 +174,21 @@ const featuredProject = projects[0];
         width="1600"
         height="1131"
         class="img"
-        src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=75"
-        srcSet="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=75 800w,
-        https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=75 1200w,
-        https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1600&q=75 1600w,
-        https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=2400&q=75 2400w,"
-        sizes="(max-width: 800px) 800px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (max-width: 2400px) 2400px, 1200px"
+        src="https://source.unsplash.com/YFNSnKYdruk/1400x900"
       />
       <div class="gradient" />
       <div class="gradient2" />
       <div class="overlay">
         <h1 class="title">
-          <small class="subtitle">The personal site of </small>Rob Howell
+          Rob Howell
         </h1>
+
         <div>
           <span class="role">
-            👩‍💻 Developer <span class="invert">👩‍💻 Developer</span>
+            🧑🏽‍💻 Lead Software Engineer <span class="invert">🧑🏽‍💻 Lead Software Engineer</span>
           </span>&nbsp;
-          <span class="role">
-            🎤 Speaker <span class="invert">🎤 Speaker</span>
-          </span>&nbsp;
-          <span class="role">
-            ✏️ Writer <span class="invert">✏️ Writer</span>
-          </span>
         </div>
-        <p class="desc">Lover of dogs, roadtrips, and poetry.</p>
+        <p class="desc">A full-stack JavaScript &amp; React specialist with a passion for front end development, reusability and test automation.</p>
       </div>
     </header>
     <main class="wrapper mt4 mb4">
