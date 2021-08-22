@@ -21,6 +21,20 @@ const { content } = Astro.props;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        position: relative;
+
+        &::after {
+          background-color: black;
+          content: '';
+          height: 100%;
+          left: 0;
+          opacity: 0.5;
+          pointer-events: none;
+          position: absolute;
+          top: 0;
+          width: 100%;
+          z-index: 0;
+        }
       }
 
       .tag {
@@ -47,6 +61,7 @@ const { content } = Astro.props;
         font-weight: 900;
         text-transform: uppercase;
         letter-spacing: 0.0625em;
+        z-index: 1;
       }
 
       .leadIn {
