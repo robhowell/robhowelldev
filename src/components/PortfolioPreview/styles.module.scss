@@ -20,6 +20,7 @@
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.0625em;
+  z-index: 1;
 }
 
 .titleCard {
@@ -27,6 +28,19 @@
   background-size: cover;
   background-position: 50% 100%;
   padding-top: 37.5%;
+
+  &::after {
+    background-color: black;
+    content: '';
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+  }
 }
 
 .desc {
@@ -52,6 +66,7 @@
   text-decoration: none;
   text-transform: uppercase;
   transition: opacity 150ms linear;
+  z-index: 3;
 
   &:focus,
   &:hover {
